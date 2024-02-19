@@ -17,7 +17,6 @@ require('mason').setup({})
 require('mason-lspconfig').setup({
     handlers = {
         lsp_zero.default_setup,
-
         astro = function()
             require('lspconfig').astro.setup({})
         end,
